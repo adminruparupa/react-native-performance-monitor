@@ -281,7 +281,7 @@ export default class extends React.Component {
             <div className="text-center mt-2 mb-2">
               <button
                 style={{ width: 140 }} type="button" className="btn mr-4 btn-primary"
-                onClick={this.sendRemount}
+                onClick={this.sendForceUpdate}
               >Force Update
               </button>
               <button
